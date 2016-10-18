@@ -7,3 +7,5 @@ RUN useradd builder
 USER builder
 WORKDIR /home/builder/
 RUN rpmdev-setuptree
+
+USER root
